@@ -18,15 +18,18 @@
               <form>
                 <div class="form-group d-flex align-items-center justify-content-between">
                   <div class="d-flex align-items-center col-7 pl-0">
-                    <label for="groupName">User(s)</label>
-                    <input type="text" class="form-control" id="groupName">
+                    <label for="groupName" class="pr-2">User(s)</label>
+                    <select multiple class="form-control">
+                      <option>1</option>
+                      <option>2</option>
+                    </select>
                   </div>
                   <button type="button" class="btn btn-success"><i class="fas fa-plus"></i>
                     Users</button>
                 </div>
                 <br>
                 <div>
-                  <div class="d-flex justify-content-between">
+                  <div class="d-flex justify-content-between mt-4">
                     <h3>Members</h3>
                     <div class="col-6 pr-0">
                       <input type="text" class="form-control" placeholder="&#xf0e0; Search">
@@ -55,6 +58,7 @@
                         </tr>
                       </tbody>
                     </table>
+                    <div class="text-secondary mb-3">1-3 of 3 Groups</div>
                   </div>
                 </div>
               </form>
